@@ -1,0 +1,31 @@
+body {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+
+.header-top {
+    display:flex;
+    justify-content: space-between;
+    padding-bottom: 70px;
+}
+
+.header-links {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.header-main {
+    display: flex;
+    padding-bottom: 70px;
+}
+
+.header-image {
+    height: 200px;
+    width: 400px;
+    background-color: lightgray;
+}
+
