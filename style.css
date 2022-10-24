@@ -44,22 +44,37 @@ body {
     max-width: 360px;
 }
 
+.header-button {
+    background-color: #3882F6;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: #F9FAF8;
+}
+
 .header-image {
     height: 200px;
     width: 400px;
-    background-color: lightgray;
+    background-color: #7b818f;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .header-logo,
 .awesome {
     color: #F9FAF8;
     margin-top: 0;
+    font-weight: bold;
 }
 
 .low-contrast,
 .header-links a {
     color: #E5E7EB;
     text-decoration: none;
+    font-size: 14px;
 }
 
 .info-container {
@@ -73,7 +88,8 @@ body {
 }
 
 .info-wrapper h2 {
-    margin-bottom: 30px;
+    margin: 40px 0px;
+    font-weight: bold;
 }
 
 .info-flex {
@@ -85,6 +101,7 @@ body {
 
 .info {
     width: 130px;
+    font-size: 14px;
 }
 
 .info-placeholder {
@@ -107,7 +124,7 @@ body {
 
 blockquote {
     margin: 0;
-    font-size: 28px;
+    font-size: 25px;
     font-weight: 100;
     font-style: italic;
     color: #1F2937;
@@ -141,7 +158,7 @@ figcaption {
 
 .signup-button {
     background-color: #3882F6;
-    border: 2px solid #F9FAF8;
+    border: 1px solid #F9FAF8;
     padding: 5px 20px;
     border-radius: 10px;
     color: #F9FAF8;
