@@ -1,8 +1,14 @@
-body {
-    max-width: 960px;
-    margin: 0 auto;
+
+
+.header-container {
+    background-color: #1F2937;
+    padding: 12px;
 }
 
+.header-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
 
 .header-top {
     display:flex;
@@ -13,19 +19,31 @@ body {
 .header-links {
     display: flex;
     list-style: none;
-    gap: 10px;
+    gap: 12px;
     margin: 0;
     padding: 0;
 }
 
 .header-main {
     display: flex;
+    justify-content: space-between;
     padding-bottom: 70px;
 }
 
+.header-text {
+    max-width: 360px;
+}
 .header-image {
     height: 200px;
     width: 400px;
     background-color: lightgray;
 }
 
+.header-logo, .awesome {
+    color: #F9FAF8 ;
+}
+
+.low-contrast, .header-links a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
