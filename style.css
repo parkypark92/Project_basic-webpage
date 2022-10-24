@@ -3,10 +3,11 @@
 .header-container {
     background-color: #1F2937;
     padding: 12px;
+    min-width: 800px
 }
 
 .header-wrapper {
-    max-width: 800px;
+    width: 800px;
     margin: 0 auto;
 }
 
@@ -46,4 +47,36 @@
 .low-contrast, .header-links a {
     color: #E5E7EB;
     text-decoration: none;
+}
+
+.info-container{
+    padding: 12px;
+    min-width: 800px
+}
+
+.info-wrapper {
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.info-wrapper h2{
+    margin-bottom: 30px;
+}
+
+.info-flex {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.info {
+    width: 130px;
+}
+
+.info-placeholder {
+    height: 130px;
+    width: 130px;
+    border: 2px solid #3882F6 ;
+    border-radius: 10%;
 }
